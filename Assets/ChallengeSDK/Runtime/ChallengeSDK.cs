@@ -1,10 +1,8 @@
 using UnityEngine;
 using UnityEngine.Networking;
-using System;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using Unity.VisualScripting;
 
 namespace Catoff
 {
@@ -60,7 +58,6 @@ namespace Catoff
                 }
             }
         }
-
         private async Task<string> SendPostRequest<T>(string url, T requestBody)
         {
             string jsonData = JsonConvert.SerializeObject(requestBody);

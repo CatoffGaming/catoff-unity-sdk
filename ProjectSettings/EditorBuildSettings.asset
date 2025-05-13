@@ -5,8 +5,11 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/ChallengeSDK/Sample/ChallengeDemo/ChallegeSDKSample.unity
     guid: 50441b8784825f44c9991e678fdbd5f8
+  - enabled: 1
+    path: Assets/ChallengeSDK/Sample/ChallengeDemo/TranscationTest.unity
+    guid: a556cc5394748ab4496e21ef37f19017
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

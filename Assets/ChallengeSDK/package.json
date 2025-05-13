@@ -1,11 +1,11 @@
 {
-  "name": "com.sumanraj.challengesdk",
+  "name": "com.catoff.sdk",
   "version": "1.0.0",
-  "displayName": "Challenge SDK",
-  "description": "A Unity SDK for creating challenges via an API.",
-  "unity": "2020.3",
+  "displayName": "Catoff Challenge SDK",
+  "description": "SDK for creating and joining Catoff challenges and sending Solana transactions.",
+  "unity": "2021.3",
   "dependencies": {
-    "com.unity.nuget.newtonsoft-json": "3.0.2"
+    "com.magicblock.solana-unity-sdk": "https://github.com/magicblock-labs/Solana.Unity-SDK.git"
   },
   "author": {
     "name": "Suman Raj",

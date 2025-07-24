@@ -12,7 +12,7 @@ public class ChallengeUI : MonoBehaviour
     public Text responseText;
 
     private ChallengeSDK challengeSDK;
-    private string apiKey = "your_api_key_here";
+    public string apiKey = "bc3b2e14b19749950803bdc53774e1db5b10565902f50652939ad3a683d9a13d";
     private string url = "https://sonicmainnet-apiv2.catoff.xyz/";
 
     void Start()
@@ -38,7 +38,7 @@ public class ChallengeUI : MonoBehaviour
             SideBetsWager = 10,
             Unit = "points",
             IsPrivate = false,
-            Currency = "USD",
+            Currency = VERIFIED_CURRENCY.USDC,
             ChallengeCategory = "Sports",
             NFTMedia = "https://example.com/nft.png",
             Media = "https://example.com/media.mp4",
